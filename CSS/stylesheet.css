@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'majesti_bannermedium';
+    src: url('majesti-banner-medium-webfont.woff2') format('woff2'),
+         url('majesti-banner-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'majesti_bannerheavy';
+    src: url('majesti-banner-heavy-webfont.woff2') format('woff2'),
+         url('majesti-banner-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'majesti_bannerlight_italic';
+    src: url('majesti-banner-lightitalic-webfont.woff2') format('woff2'),
+         url('majesti-banner-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'majesti_bannerlight';
+    src: url('majesti-banner-light-webfont.woff2') format('woff2'),
+         url('majesti-banner-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {color:rgb(190,30,45);
+    font-family:'majesti_bannerlight_italic';
+    text-align:center;
+    font-size: 3em;
+}
+
+p {text-indent:2.5em;
+    font-family:athelas,serif;
+    font-weight: 400;
+    font-style: normal;
+    padding:3em;
+}
+
+.nav {
+    display:inline;
+}
+
+.nav:hover {
+    font-size: 50px;
+}
+
+.border {
+    border: 3px black solid;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+
+body {
+    background-color: rgb(215,228,194);
+}
+
+a:link {
+    color:rgb(190,30,45);
+    font-family: 'majesti_bannerheavy';
+}
+
+a:hover {
+    color: rgb(240,78,35);
+}
+
+.navcenter{
+    text-align: center;
+}
+
+#dompic {
+    width:100%;
+    height: 400px;
+}
+
+.picleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.promo {
+    text-align: center;
+}
+
+.footline {
+    display: inline;
+    padding-right: 15px;
+}
+
+.menusize {
+    text-align: center;
+}
+
+.address {
+    font-size: 3em;
+    font-family: 'majesti_bannerlight'
+}
+
+.adddesc {
+    font-size: 1.5em;
+    font-family: 'majesti_bannerlight'
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(138,140,143);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(213,162,141);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(215,228,194);
+  padding: 20px;
+}
